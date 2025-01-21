@@ -15,11 +15,11 @@ const MoblieItem: React.FC<MoblieItemProps> = ({
     active,
     onClick
 }) => {
-    const handleClick = () => {
-        if (onClick) {
-            return onClick()
-        }
-    }
+    // const handleClick = () => {
+    //     if (onClick) {
+    //         return onClick()
+    //     }
+    // }
 
     return (
         <Link onClick={onClick} href={href} 
