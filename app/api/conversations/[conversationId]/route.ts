@@ -11,10 +11,13 @@ import { pusherServer } from "@/app/libs/pusher";
 //     try {
 //         const { conversationId } = params
 
-interface IParams { conversationId?: string; }
-export async function DELETE(request: NextRequest, context: { params: IParams }) {
+interface IParams {
+    conversationId?: string;
+}
+
+export async function DELETE(request: Request, params: IParams) {
     try {
-        const { conversationId } = context.params;
+        const { conversationId } = params;
 
         const CurrentUser = await getCurrentUser();
 
