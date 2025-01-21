@@ -60,8 +60,8 @@ import Form from "./components/Form"
     conversationId: string
  }
 
- const conversationId = async ({params}:{params: IParams}) => {
-    const { conversationId } = params;
+ const conversationId = async ({params}:{params: Promise<IParams> }) => {
+    const { conversationId } = await params;
 
     // Now await the asynchronous calls for conversation and messages
     const conversation = await getConversationById(conversationId);
