@@ -5,7 +5,8 @@ A real-time chat application built with **Next.js**, **React**, **Pusher**, and 
 ---
 
 ## 🌐 Live Demo
-
+  (ctrl + click to open it in new tab)
+  
 🔗 **https://messenger-video-roan.vercel.app**
 
 ---
