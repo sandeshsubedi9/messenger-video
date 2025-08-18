@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Messenger Clone",
-  description: "Messenger Clone made for learning purpose",
+  title: "Messaging App",
+  description: "Messaging App made for learning purpose inspired from messenger",
 };
 
 export default function RootLayout({
